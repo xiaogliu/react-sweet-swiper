@@ -1,0 +1,36 @@
+@import '~bpk-mixins';
+
+.Swiper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &__wrapper {
+    display: flex;
+    height: 100%;
+    transition-duration: 300ms;
+  }
+
+  &__navBtn {
+    position: absolute;
+    top: 30%;
+    width: $bpk-spacing-xxl;
+    height: $bpk-spacing-xxl;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    outline: none;
+  }
+
+  &__prevBtn {
+    left: 0;
+  }
+
+  &__nextBtn {
+    right: 0;
+  }
+
+  &__nextBtnHide,
+  &__prevBtnHide {
+    display: none;
+  }
+}
