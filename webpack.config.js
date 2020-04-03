@@ -13,6 +13,7 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: [
           // extract css to separate file (replace style-loader)
+          // 
           MiniCssExtractPlugin.loader,
           // Translates CSS into CommonJS
           {
