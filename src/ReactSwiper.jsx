@@ -252,8 +252,12 @@
 
 // export default Swiper;
 
-import React from 'react';
+import React from "react";
 
-const test = () => <div>1111</div>
+class Test extends React.Component {
+  render() {
+    return <div>11111</div>;
+  }
+}
 
-export default test;
+export default Test;
