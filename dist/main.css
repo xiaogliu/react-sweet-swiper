@@ -1,0 +1,30 @@
+.Swiper__Swiper--bvB_Z {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.Swiper__Swiper__wrapper--2b_9B {
+  display: flex;
+  height: 100%;
+  transition-duration: 300ms;
+}
+.Swiper__Swiper__navBtn--Yh7rR {
+  position: absolute;
+  top: 30%;
+  width: 2.625rem;
+  height: 2.625rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  outline: none;
+}
+.Swiper__Swiper__prevBtn--2JHNG {
+  left: 0;
+}
+.Swiper__Swiper__nextBtn--WX6Ph {
+  right: 0;
+}
+.Swiper__Swiper__nextBtnHide--24Uyp,
+.Swiper__Swiper__prevBtnHide--d7LGI {
+  display: none;
+}
+

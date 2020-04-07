@@ -1,0 +1,29 @@
+.Swiper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.Swiper__wrapper {
+  display: flex;
+  height: 100%;
+  transition-duration: 300ms;
+}
+.Swiper__navBtn {
+  position: absolute;
+  top: 30%;
+  width: 2.625rem;
+  height: 2.625rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  outline: none;
+}
+.Swiper__prevBtn {
+  left: 0;
+}
+.Swiper__nextBtn {
+  right: 0;
+}
+.Swiper__nextBtnHide,
+.Swiper__prevBtnHide {
+  display: none;
+}
